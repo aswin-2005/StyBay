@@ -1,0 +1,6 @@
+# Ignore the root-level virtual environment
+/venv/
+
+# Ignore Python cache directories anywhere in the project
+__pycache__/
+*.py[cod]

@@ -1,0 +1,232 @@
+[
+  {
+    "name": "test_cookie",
+    "value": "CheckForPermission",
+    "domain": ".doubleclick.net",
+    "path": "/",
+    "expires": 1750007364,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "bm_ss",
+    "value": "ab8e18ef4e",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1750010057,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "bm_s",
+    "value": "YAAQTWfRF3jwazmXAQAA0GeDdANQJW5V6Alr0Sv3gvLoy4DQ7mmp64jOQ84PyMXwDB7hoh+Yufh3uG0vayWce4Sro1An4LET1if9dPew9dzYMYUt+wA2z92XmumXv89hdS8Qf/6mtI6UsyRRYSAzNX0vJYUOUufwPMltZN5iYkjrXs92a3Mn/BcfF1jn+Cy6kCL5suyAzq05A8pErr9duTEZ4CmElPODML6U6cQAh2fytw11QuqVCGdiJVZmfbvVjY/3dxrqlIenjW+Q87N520P1JnFzj9GWkcwwzl71h9wlkEp1jAHio8KMfFJJguFJPkHMSTKqXbi0catGXrLUipSLS/2HHK8oZCA0dK7hM1PgjoPnlwLyz6fLmAHiCBCLtQbhFIm9PeEPYXKlkvOTgeOFgFaQGdStSOOmI/eXaBBG6QPF4yhfEriVxgodbQ20q4HpA2PKYSnAR1vvjyC9h+hONCHCvlmEHO0fRSX7U8SOoYVasKwqk+PeHXViWbMEB3uFy9xDAQlTQAtPu7346v1m61h88TvO17EbHaSCD8xGWQ0YAec=",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1752684857,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "bm_so",
+    "value": "BB51AD2C6B290FFF209E7BD5A6E6928FEA0BC037CAE918566D96A9329FBE64B8~YAAQTWfRF3nwazmXAQAA0GeDdAOHV/yNqQih2pbWOJF4WI059IHlUsAOFMo5D6BVyHcr8ZJyicWwkjIjmL1RkI4P1mzo4p6PxPZzjK69QU3zvxO4Crc+dbiouwjbJEpqgJ7RttETJ6xsE6qyEtrT8LjaNfWxx0ntBvuECB+PRksDN1vAowRe/bdxBPfG70IryAokatEb8uEuiXwSV9wfoCoo/XbZUz/5NyLXtLR8smaJkEURnSfcwpJsehayUt9T8tCyz8zQ0zXXOWKEhKD6/oHFxTyYkIMnFlIN55EBmaEyNU0LkNmMV32nbsXStce2GOcvzn8TMKN5U1088kjkAYY71ndfYjEJkyJHnaxn6JlDUdPWOmHHeIUZN+LFKUNuk3qvryK3hddiXzQ6dy6TdGhcWlDTuUEFhGZBD3ecYBt6NDdKuSRH57kHnz7819KXPXsaNYx2u3/dsCKZ",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1750092857,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "bm_sz",
+    "value": "26A00E8FD18651D2B6FB6488E45B841F~YAAQTWfRF3rwazmXAQAA0GeDdBzmmzo46F0UUdz7P3v/e9t68LNochWf4XIop2k5kBldMUVUjG5slwJImxD6VJrp1oyzT+mDkegAOr12FquvXfWt8UCT9QPIoNoQxr59jyETRb2ddWJAU1u54ndaQLLa5BYe1oiG81IBckO788ZhGuGQajt4n8H+SHiLhsnlWa0qh/22zT8UfyN3TGOUP1hzpZ09jt1c3eMpbQW/3Zbo4bEzOsrlzGgOIjFR45Sky2vy4liDi0okbqn+pbiPY7eobfW8G/1I+z7xRJ9JKoY80lTSN/ePcgjFDPuFfKWrjY9AP2HgJiCmWXEVeM/j9+3LfrzMINfe+5OvIIRR5bH1uxrqyY6PnHjIVpZAu8dNeQPvtWW0zo7tBcBnrQ==~3752502~4337985",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1750020857,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "bm_lso",
+    "value": "BB51AD2C6B290FFF209E7BD5A6E6928FEA0BC037CAE918566D96A9329FBE64B8~YAAQTWfRF3nwazmXAQAA0GeDdAOHV/yNqQih2pbWOJF4WI059IHlUsAOFMo5D6BVyHcr8ZJyicWwkjIjmL1RkI4P1mzo4p6PxPZzjK69QU3zvxO4Crc+dbiouwjbJEpqgJ7RttETJ6xsE6qyEtrT8LjaNfWxx0ntBvuECB+PRksDN1vAowRe/bdxBPfG70IryAokatEb8uEuiXwSV9wfoCoo/XbZUz/5NyLXtLR8smaJkEURnSfcwpJsehayUt9T8tCyz8zQ0zXXOWKEhKD6/oHFxTyYkIMnFlIN55EBmaEyNU0LkNmMV32nbsXStce2GOcvzn8TMKN5U1088kjkAYY71ndfYjEJkyJHnaxn6JlDUdPWOmHHeIUZN+LFKUNuk3qvryK3hddiXzQ6dy6TdGhcWlDTuUEFhGZBD3ecYBt6NDdKuSRH57kHnz7819KXPXsaNYx2u3/dsCKZ^1750006461635",
+    "domain": ".www.ajio.com",
+    "path": "/",
+    "expires": 1752598461,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "_gcl_au",
+    "value": "1.1.660924628.1750006462",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1757782462,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "sessionStatus",
+    "value": "true|undefined",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1750092862,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "AB",
+    "value": "B",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1784566462,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "_abck",
+    "value": "A41965999E486048C53299B18EA6EFFB~-1~YAAQTWfRF+nwazmXAQAAW36DdA5vE8TnYzh4R29tUW/gpi/tem5mNCdLPF4tLaGNUMO6WXFv2sExRoHFWRAefjWfslRAKLRq//zTTafszabRKOQ6ag9l98rv6rom5aDSvg256YEXpUxwGReRi6kfJzucdhFqJEfDJauiL1mZLaJkuzfrZVcpgD9OyHhGjzfm1eyWOLoZSGop5NvQwxr4LxmvBRzuhaZEq+oJq2DvxYZHcqNKCq1Ci0Yb3SEZpLWVkCHlbyTWynutWjf2ZDBsOeF3c7NBbxwuQpgXJrvJ/34P/g5Sykiwa35fJtPJs640DOITRCRrHNSxb8le2eHUxSs/x+z2COcbtBw/hIn4HMT158NenLCRpadq/mnO6lKcIwUyfXyOyjtqb5we8vkqVMzRiFKG5Q/oWgpO/vmypCxwbCVJzuopP7S9aciOxWVVeFJgi+dV0kTQEtqk8a4JIcONhX2fE5VQKoarDKeMFCyHU0YPbH3B+Yz3u6ddpwitpSKfqVMi1zM4bataJDBy2uw9k0n/aVWMWMNsDxneBULGrflWScFWABIUsuSUKG6Et7B4zYmwo5yeX6IIkjFfVXTN4i3XCA==~-1~||0||~1750010063",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1781542463,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_fbp",
+    "value": "fb.1.1750006463796.78798198543968800",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1757782463,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "_fpuuid",
+    "value": "7ta2w_FZxzci4WH1G-CES",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1781542464,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "deviceId",
+    "value": "7ta2w_FZxzci4WH1G-CES",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1781542464,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "ifa",
+    "value": "351b79bd-327f-40d1-bb31-a1d061c66736",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1750092864,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "os",
+    "value": "4",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1750092864,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "vr",
+    "value": "WEB-2.0.11",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1750092864,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "ajs_anonymous_id",
+    "value": "5a716789-6e44-4812-ad96-c88e7a2da2d7",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1781542464,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.2.32157198.1750006462",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1784566464,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "_gid",
+    "value": "GA1.2.1822332813.1750006462",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1750092864,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "_dc_gtm_UA-68002030-1",
+    "value": "1",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1750006524,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "ImpressionCookie",
+    "value": "0",
+    "domain": "www.ajio.com",
+    "path": "/",
+    "expires": 1750008264,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "FirstPage",
+    "value": "Sun Jun 15 2025 22:24:24 GMT+0530 (India Standard Time)",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1775926464,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  },
+  {
+    "name": "ak_bmsc",
+    "value": "2D8D6076E524E2D86C4530DDE6BBBF8F~000000000000000000000000000000~YAAQTWfRFwbxazmXAQAAgIWDdBxCYZRfTK+udY1QacLVPjk0LP2NT/+6A1PPR/2oBEpRkUan4v8IaHDzEOFEAwPDT4t/WQW26uIYsYiqZPZKaH4CjgF4ByFsuprdiKdvvI8bLH38jyEKOAuV1R79C3lQBUK1IvLlwLNM9/zEqHGNN+sXouNwoO818AylyW8GikDXJa5VCUD21ILxRgcxjhU/R4Ag8GrjtUNhS3NbSs5FUgABlkUPKw6Y5t9aCY70Dsq3zYrh8JmYdVouflp3S/u3WTyVFnd3D3E2pzFREg+g6OB3V1x6PzZUkAK26QnZC/K8MUHNw3yi4KP0snvZmV05c7o8tfc7rQdtFPocxkbwqbxxz1EoASG7RCr2TrGKjO/8Lr6k+MSeJ+bbEyYCJk6F",
+    "domain": ".ajio.com",
+    "path": "/",
+    "expires": 1750013661,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "None"
+  }
+]
