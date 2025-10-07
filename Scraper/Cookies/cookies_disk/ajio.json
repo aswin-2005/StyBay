@@ -1,0 +1,144 @@
+[
+  {
+    "id": "1e6035eb-a9fd-49a6-af1d-d4c5fb232f38",
+    "site": "ajio",
+    "cookies": [
+      {
+        "name": "bm_ss",
+        "value": "ab8e18ef4e",
+        "domain": ".ajio.com",
+        "path": "/",
+        "expires": 1759857518,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "bm_s",
+        "value": "YAAQTRNeaGXxa5aZAQAA5bN3vwTpVaDKTJADI8VFawWReQy03XiJRmEYd+h21ZA1wrdkRJQoHcKM2qBZj7IbAihm4b3A4C+mns+OMPUSmqi3w0+h+w1GZ9AFkLFzla4Yd01NCALAJI5S4akA5xya6w3wIpIVT0NFlUuowCJ1XyEJH8bJWUNp1096/3VAhg8KYmv8ghe+Ov4c2GXaXuDWO26q3FL0Wy2WF3cf3q3QSpRTqtloNcYXxWsjtJMRN16H/dfL2VGX/mV8rSneiem2xOz/M9l8ussoByBN+PInDI6VDlEYMSZdD2dbqtJBO0td9GAjEzV/vabybEGs/cOKcsnjfcDOs/M1virD2flsk4xShOJsuRHkB+mZ3Yox8kieFhZ6unN+PRVTBEeg9wg/HS/IL0XaD6M1uGhoLxZ3/3yeFTI2UVQw6rc7JvmrIh0Wk1NKVX2UwJYwjaea480VYBTAt27LPRJz605d2PomxGrMrri4gumvtJEqOrvKQuaBCnB2VRva0QT3Jd69+36stHx4tFLOroCtlfEqMpsyYbMovOJ5pA==",
+        "domain": ".ajio.com",
+        "path": "/",
+        "expires": 1762532318,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "bm_so",
+        "value": "46F8F1436CA790C78B0821E5F4EE467FC025E9A7B8100D8C5649A874DF531BD5~YAAQTRNeaGbxa5aZAQAA5bN3vwVVbN1ypxr/MovuZoDR5BJciYtJ2aUPPAWdDChc+D9poMC4aCFttpHF/vRQ6efF5a+ZBdj1rT3rjQH9CPj5v8ut3l31UkJ6/+Evoix8mPhHU+XGQBHum6PsYhXbu7yKk1pw2IISHbTET7fXpgmA5GdKem8CEzlGo/gsDMZozjozgHcmNyxfxQTZFOr/sP9M/Eg78xVBnsOEHZRmRWbrIUqIzziC+DUa4bBnRhoIrCowMEdGa4nfP3p/+t15ln2R4286fyQndidFWjP9uJgL9WLVVG/hWDaIuyYTOJ35FrKYQdweOcVom12fEFhmGfcKY4Lj2uv4IMPk727f88HiBoQPEPcVFjEPo0rh+LeTE+0Icyf066hTf42qcUKm7Vg7xPpCqi3tuvsgxVfIROBpfm6y9jEjYDhu9zWn4GX4lex+RcYDIKws5BM=",
+        "domain": ".ajio.com",
+        "path": "/",
+        "expires": 1759940318,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "bm_lso",
+        "value": "46F8F1436CA790C78B0821E5F4EE467FC025E9A7B8100D8C5649A874DF531BD5~YAAQTRNeaGbxa5aZAQAA5bN3vwVVbN1ypxr/MovuZoDR5BJciYtJ2aUPPAWdDChc+D9poMC4aCFttpHF/vRQ6efF5a+ZBdj1rT3rjQH9CPj5v8ut3l31UkJ6/+Evoix8mPhHU+XGQBHum6PsYhXbu7yKk1pw2IISHbTET7fXpgmA5GdKem8CEzlGo/gsDMZozjozgHcmNyxfxQTZFOr/sP9M/Eg78xVBnsOEHZRmRWbrIUqIzziC+DUa4bBnRhoIrCowMEdGa4nfP3p/+t15ln2R4286fyQndidFWjP9uJgL9WLVVG/hWDaIuyYTOJ35FrKYQdweOcVom12fEFhmGfcKY4Lj2uv4IMPk727f88HiBoQPEPcVFjEPo0rh+LeTE+0Icyf066hTf42qcUKm7Vg7xPpCqi3tuvsgxVfIROBpfm6y9jEjYDhu9zWn4GX4lex+RcYDIKws5BM=^1759853924486",
+        "domain": ".www.ajio.com",
+        "path": "/",
+        "expires": 1762445924,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_ga",
+        "value": "GA1.2.400843524.1759853924",
+        "domain": ".ajio.com",
+        "path": "/",
+        "expires": 1794413924,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_gid",
+        "value": "GA1.2.2071493150.1759853924",
+        "domain": ".ajio.com",
+        "path": "/",
+        "expires": 1759940324,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "ak_bmsc",
+        "value": "FFDCDF551245CE8FB35CADB31E7CF14B~000000000000000000000000000000~YAAQRRNeaMHwm5OZAQAA8cx3vx2/iXQZ+vJAAcREJXfPYH53g47vcbfaqB16E0KWIbpMcnOYj8GVZnQPYIg9hJbNH87u9Fft531srN901jxtSydHfGeT+rbTT9mJ+SAGEnvec+F+sRMZmVv9GgLuuOzv9ha93HzL0EqG5wKZ5zRGmP+MGrHOkTJuACDzNp8vAdGs5qkchrFDh9dQPYRA/TS/Zxfo1JheEooEgAZMKXmfxv7ghWG48I6/4SCMXo5/5HvYBBRvoAfzUvysjk2x7bwI/MQFRVdjJ7pxyt8sl5As9v+R9lh/fHCz8x6QAL479zPbtXSTZ7lRhWHsJi4TSfQdKUJFHCk7YWEcOModVLwq8hKXhxQnQ8XxQkwiRio=",
+        "domain": ".ajio.com",
+        "path": "/",
+        "expires": 1759861124,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_abck",
+        "value": "2FAFF8A89DC9923944BEA0F21822479E~-1~YAAQRRNeaMLwm5OZAQAAB813vw4hiYHAKjhB12i0eT2Zhy7iUc/JNw567tX2egNwc25Z7arIymPhq/g4abgahC2o/KrTWu96Mv8wnpt+krliAjZIh5Udhx3uy+WmuRZiPzId10OS8daVkh4Z05F6xhVZiskX94imxIXkzoCOY8wTd5vm4A/mOW3SQj+Xc+PpxWoS/2k484uAXLVIPtAB9m3MjFXjrfrMtlXHu5brSG6p6schiVfBFtjGvqb5/dTusNa7U9pNbO9W8auV/7IW62TYYpmYSgAcQy+jJ/qNQYWXpcGa1RAFNHRTg3pg4GNEzAAmjNtIjd+VzeJkHiHaw+eMnw5crkfek/XU+jo+ciaNN1zRzXqhbzL6cmRH/7+x5gGOciFuoItEK8VxZ3oALKMxPlGjNt3tBysJGdkxEzz5Q8VeQMaH7PIYnPZDSsr3mwqzKWJ7M9lvFWquJCp0ZVANYXsTiOqQto0lztoH0OAiefl2ujNpGM7RZIjKB13xunqVH1sF2i/YhpiMOIfFeiIONin9OJ3hLa2ePSWJ2hvCqbsng5hImVpcxMEJT91cBRufQAS7VIajdlJKkHoyFx1o3tmE4Q1ZU3yDMZSMiKH7HJQ0Da8=~-1~-1~1759857523~AAQAAAAE%2f%2f%2f%2f%2f7b96oKmPk%2fUBWzir%2f1m5ARrPw12Wi2mZ8wYLBXQTDds2r0XmuRDOJmhJwFvkHvMl+3xHINfaz4okF7rsR6+WxI0OM2BnbADY5Yr~-1",
+        "domain": ".ajio.com",
+        "path": "/",
+        "expires": 1791389924,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "bm_sz",
+        "value": "6942287412E6BDC6D78E9B0CB804AFB3~YAAQRRNeaMPwm5OZAQAAB813vx3HjSu5hX5BfOuc+c+ctieJKkqyexNafjdiZmJmXA6/0LgvYOMmU05cQUz8vrM9mKk/j9v3QeWwW/sUnYbv8WhGdZDwDk/icdtxH6GT+qc/f+9cliOe+sl5e7K2rEm3NdVjt9uH9rUaDLJbsq7+6oUY7kZyLPOCTgcgN4afzDwwDTZ04VK4l+NwRAFDkZX/p4bDqu/U/5nCkqyv9nT73hD6mxIKqGpzYZQeKxDNwUXjK5CKTsm1JRAi4f+n4HaGakfm0DRLY+1FpPXp8wZ53mU9+R0VCxj4I6X49o2/EVFB9ScHFW+wqjkawf6ujEPja+6zVAr6grj0Rnd5hdqL+ItdICJFQ8L1aIYoEeQ5+JXf4EHc44t2sDkdK6mG9Wk=~3424822~3622212",
+        "domain": ".ajio.com",
+        "path": "/",
+        "expires": 1759868318,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.1393247181.1759853925",
+        "domain": ".ajio.com",
+        "path": "/",
+        "expires": 1767629925,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "sessionStatus",
+        "value": "true|undefined",
+        "domain": ".ajio.com",
+        "path": "/",
+        "expires": 1759940325,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "FirstPage",
+        "value": "Tue Oct 07 2025 21:48:45 GMT+0530 (India Standard Time)",
+        "domain": ".ajio.com",
+        "path": "/",
+        "expires": 1785773925,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None"
+      },
+      {
+        "name": "AB",
+        "value": "B",
+        "domain": ".ajio.com",
+        "path": "/",
+        "expires": 1794413925,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "None"
+      }
+    ],
+    "created_at": "2025-10-07T16:18:48.139160",
+    "cookie_expiry": 1759857518,
+    "is_healthy": true,
+    "usage_count": 4,
+    "last_used": "2025-10-07T16:22:56.430892",
+    "failed_attempts": 0
+  }
+]

@@ -1,0 +1,12 @@
+requests
+supabase
+playwright
+flask
+bs4
+dotenv
+redis
+keybert
+sentence-transformers
+schedule
+clip
+psycopg2
