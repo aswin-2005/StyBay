@@ -7,7 +7,6 @@ from trending import TrendingManager
 from sessions import SessionManager
 import scraper
 import database
-import cache
 
 # ---------------- Configuration ---------------- #
 app = Flask(__name__)
@@ -29,14 +28,7 @@ def get_from_cache(session, rowsize):
 
     sorted_candidates = sorted(candidate_products.items(), key=lambda x: x[1], reverse=True)
     chunk = []
-    for pid, _ in sorted_candidates:
-        product = cache.get_product(pid)
-        if product:
-            chunk.append(product)
-            session_mgr.add_to_seen(session['rid'], pid)
-            trending.bump(pid, weight=2)
-        if len(chunk) >= rowsize:
-            break
+    # Cache removed — return empty
     return chunk
 
 
@@ -58,7 +50,6 @@ def get_from_db(session, rowsize):
         pid = product['product_id']
         chunk.append(product)
         session_mgr.add_to_seen(session['rid'], pid)
-        cache.set_product(pid, product)
         trending.bump(pid, weight=3)
     return chunk
 
@@ -87,17 +78,19 @@ def search():
     session['rid'] = uuid.UUID(rid)
 
     # --- Get products --- #
-    chunk = get_from_cache(session, rowsize)
+    chunk = []
+    # chunk = get_from_cache(session, rowsize)
     if len(chunk) < rowsize:
         chunk.extend(get_from_db(session, rowsize - len(chunk)))
     if len(chunk) < rowsize:
         print(f"⚙️ Live scrape triggered for '{query}'")
         new_products = scraper.main(query)
-        for product in new_products:
+        serve_products = new_products[:rowsize - len(chunk)]
+        for product in serve_products:
             pid = product['product_id']
             session_mgr.add_to_seen(session['rid'], pid)
             trending.bump(pid, weight=3)
-        chunk.extend(new_products[:rowsize - len(chunk)])
+        chunk.extend(serve_products)
 
     session_mgr.update_last_request(session['rid'])
 
@@ -107,7 +100,6 @@ def search():
         "products": chunk
     }
     return jsonify(resp), 200
-
 
 
 @app.get("/feed")
@@ -133,21 +125,27 @@ def feed():
 
     trending_ids = random.sample(top_trending, TRENDING_LIMIT)
     recent_ids = random.sample(session['seen_products'], RECENT_LIMIT)
-    random_ids = database.get_random_products(limit=RANDOM_LIMIT)
+    random_products = database.get_random_products(limit=RANDOM_LIMIT)
 
-    product_ids = trending_ids + recent_ids + random_ids
+    product_ids = trending_ids + recent_ids + [p['product_id'] for p in random_products]
     random.shuffle(product_ids)
 
     chunk = []
     for pid in product_ids:
-        product = cache.get_product(pid)
+        product = database.get_product_by_id(pid)
         if product:
             chunk.append(product)
             session_mgr.add_to_seen(session['rid'], pid)
             trending.bump(pid, weight=1)
 
     session_mgr.update_last_request(session['rid'])
-    return jsonify(chunk), 200
+
+    # --- Build response --- #
+    resp = {
+        "session": session_mgr.get_session_snapshot(uuid.UUID(rid)),
+        "products": chunk
+    }
+    return jsonify(resp), 200
 
 
 # ---------------- Entry ---------------- #
