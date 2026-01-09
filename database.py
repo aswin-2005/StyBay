@@ -50,45 +50,52 @@ def get_product_by_id(product_id: str):
     return None
 
 
-def get_products_by_tags(tags: list[str]):
-    """
-    Return all products that match any of the given tags.
-    Aggregates from `tags` table and expands to product details.
-    """
-    all_products = []
-    seen_ids = set()
+def get_products_by_tags(tags):
+    product_ids = set()
 
     for tag in tags:
-        resp = supabase.table("tags").select("product_ids").eq("tag", tag).execute()
+        if not isinstance(tag, str) or not tag.strip():
+            continue
+
+        resp = supabase.table("tags") \
+            .select("product_ids") \
+            .eq("tag", tag) \
+            .execute()
+
         if not resp.data:
             continue
 
-        product_ids = resp.data[0].get("product_ids", [])
-        for pid in product_ids:
-            if pid not in seen_ids:
-                product = get_product_by_id(pid)
-                if product:
-                    all_products.append(product)
-                    seen_ids.add(pid)
-    return all_products
+        for pid in resp.data[0].get("product_ids", []):
+            if isinstance(pid, str) and pid.strip():
+                product_ids.add(pid)
+
+    if not product_ids:
+        return []
+
+    # HARD LIMIT — protects PostgREST
+    product_ids = list(product_ids)[:50]
+
+    try:
+        resp = supabase.table("products") \
+            .select("*") \
+            .in_("product_id", product_ids) \
+            .execute()
+        return resp.data or []
+    except Exception as e:
+        print("❌ Supabase IN query failed")
+        print("product_ids =", product_ids)
+        print(e)
+        return []
+
 
 
 def get_random_products(limit: int = 10):
-    """
-    Return a random subset of products (for /feed endpoint).
-    """
-    response = supabase.table("products").select("product_id").execute()
-    all_ids = [row["product_id"] for row in response.data]
-    if not all_ids:
-        return []
-    sample_ids = random.sample(all_ids, min(limit, len(all_ids)))
+    resp = supabase.table("products") \
+        .select("*") \
+        .limit(limit) \
+        .execute()
+    return resp.data or []
 
-    products = []
-    for pid in sample_ids:
-        product = get_product_by_id(pid)
-        if product:
-            products.append(product)
-    return products
 
 def add_products_batch(products_batch):
     """Upsert a batch of products and update tag references efficiently."""

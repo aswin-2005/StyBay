@@ -3,7 +3,7 @@ supabase
 playwright
 flask
 bs4
-dotenv
+python-dotenv
 redis
 keybert
 sentence-transformers
